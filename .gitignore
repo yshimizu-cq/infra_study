@@ -35,3 +35,5 @@ terraform/.idea
 terraform/.terraform
 terraform/.terraform.lock.hcl
 terraform/terraform*
+app/tmp
+app/vendor
