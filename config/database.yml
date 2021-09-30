@@ -22,4 +22,7 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: infra_production
+  username: root
+  password: password # ansibleで設定したpassword
+  host: test-db.czbpbgaa41uy.ap-northeast-1.rds.amazonaws.com # RDSのエンドポイント
