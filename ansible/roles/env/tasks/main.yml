@@ -1,7 +1,7 @@
 - name: Create app dir
   become: yes
   file:
-    path: /var/www/infra
+    path: /var/www/infra_study
     state: directory
     owner: 'ec2-user'
     mode: 0777
